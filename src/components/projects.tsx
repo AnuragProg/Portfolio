@@ -14,7 +14,7 @@ export default function Projects(){
         },
         {
             name: 'Job Ki Khoj',
-            description: 'Printit is a platform built in microservices architecture to streamline the printout process eliminating the need to queue in front of shops.',
+            description: 'A job portal extension for the PGRKAM website with live job notifications and employer GPS interface',
             tags: ['Typescript', 'Python', 'Docker', 'MongoDB', 'Redis', 'gRPC'],
             image: '/job-ki-khoj.png',
             url: 'https://github.com/Job-Ki-Khoj-Smart-India-Hackathon-2023/backend-monorepo',
