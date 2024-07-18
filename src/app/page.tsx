@@ -1,9 +1,21 @@
-import Image from "next/image";
+import NavBar from "@/components/navbar";
+import Hero from "@/components/hero";
+import Experience from "@/components/experience";
+import Projects from "@/components/projects";
+import SocialLinks from "@/components/social-links";
+//import Contact from "@/components/contact";
 
-export default function Home() {
+
+export default async function Home() {
    return (
       <main>
-         Anurag Portfolio, coming soon....
+        <section className="flex flex-col h-screen w-full">
+            <SocialLinks />
+            <NavBar />
+            <Hero />
+        </section>
+        <Experience />
+        <Projects />
       </main>
    );
 }
