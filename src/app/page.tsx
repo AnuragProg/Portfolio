@@ -8,7 +8,7 @@ import SocialLinks from "@/components/social-links";
 
 export default async function Home() {
    return (
-      <main>
+      <main className="space-y-14 pb-5">
         <section className="flex flex-col h-screen w-full">
             <SocialLinks />
             <NavBar />

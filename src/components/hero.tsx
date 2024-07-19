@@ -8,13 +8,13 @@ const Lottie = dynamic(()=>import('lottie-react'), {ssr: false});
 
 export default function Hero(){
     return (
-        <section className="w-full flex-grow flex justify-around items-center">
+        <section className="w-full flex-grow flex flex-col md:flex-row justify-around items-center p-4">
             <Lottie 
                 animationData={animationData}
                 loop={true}
             />
-            <div className="flex flex-col items-start justify-center space-y-4">
-                <div className="space-y-2">
+            <div className="flex flex-col items-center md:items-start justify-center space-y-4">
+                <div className="space-y-2 flex flex-col items-center md:items-start">
                     <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">Anurag Singh</h1>
                     <p className="max-w-[600px] text-muted-foreground md:text-xl">Software Developer</p>
                 </div>
