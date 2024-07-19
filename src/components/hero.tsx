@@ -8,7 +8,7 @@ const Lottie = dynamic(()=>import('lottie-react'), {ssr: false});
 
 export default function Hero(){
     return (
-        <section className="w-full flex-grow flex flex-col md:flex-row justify-around items-center p-4">
+        <section className="w-full flex-grow flex flex-col md:flex-row justify-around items-center p-4 z-0">
             <Lottie 
                 animationData={animationData}
                 loop={true}

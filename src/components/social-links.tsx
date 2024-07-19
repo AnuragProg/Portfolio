@@ -19,7 +19,7 @@ export default function SocialLinks(){
         </a>
     );
     return (
-        <section>
+        <section className="z-10">
             <div className="hidden md:absolute bottom-5 left-5 md:flex flex-col space-y-2">
                 {Socials}
             </div>
